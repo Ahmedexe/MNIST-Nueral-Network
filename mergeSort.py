@@ -7,8 +7,6 @@ np.random.shuffle(arr)
 print(arr)
 
 
-
-
 flarr = []
 srarr = []
 

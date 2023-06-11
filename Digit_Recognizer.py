@@ -3,8 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-
-data = pd.read_csv("mnist_train1.csv")
+data = pd.read_csv("D:\Programming Files\pyt\.vscode\MNIST data\mnist_train1.csv")
 
 data = np.array(data)
 np.random.shuffle(data)
@@ -139,22 +138,22 @@ def write_data(data, file):
     f.close()
 
 
-w1, b1, w2, b2, w3, b3 = gradiant_descent(X_train, Y_train, 0.1, 30001, 600)
+w1, b1, w2, b2, w3, b3 = gradiant_descent(X_train, Y_train, 0.1, 100, 10)
 
 
 
-############  Testing  Data
-test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
-
-test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
-
-test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
-
-test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
-
-test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
-
-test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
+#############  Testing  Data
+#test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
+#
+#test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
+#
+#test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
+#
+#test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
+#
+#test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
+#
+#test_out(randomInteger(), w1, b1, w2, b2, w3, b3)
 
 
 ########### Registering Numbers

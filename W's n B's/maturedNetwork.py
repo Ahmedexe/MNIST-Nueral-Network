@@ -4,7 +4,7 @@ import pandas as pd
 
 #########  DATA
 
-data = pd.read_csv("mnist_train1.csv")
+data = pd.read_csv("D:\Programming Files\pyt\.vscode\MNIST data\mnist_train1.csv")
 
 data = np.array(data)
 np.random.shuffle(data)
